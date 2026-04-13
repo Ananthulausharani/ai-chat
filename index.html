@@ -165,7 +165,7 @@
             <p>Powered by Groq AI</p>
         </div>
         
-        <div id="chat"></div>
+        <div id="index"></div>
         
         <div class="input-area">
             <input 
@@ -182,7 +182,7 @@
         async function sendMessage() {
             const messageInput = document.getElementById('message');
             const message = messageInput.value.trim();
-            const chatDiv = document.getElementById('chat');
+            const chatDiv = document.getElementById('index');
             const sendBtn = document.getElementById('sendBtn');
             
             if (!message) return;
